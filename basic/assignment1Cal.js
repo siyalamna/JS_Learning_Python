@@ -19,11 +19,12 @@ if(a === 15){
     }
 }
 
+
 function calCulator(a, oper, b) {
     if(oper === "+"){
         console.log(`a + b is: `, a + b)
     } else {
-        if(oper == "-"){
+        if(oper === "-"){
             console.log(`a - b is: `, a - b)
         } else {
             if(oper === "*") {
@@ -40,4 +41,3 @@ function calCulator(a, oper, b) {
 }
 
 let cal = calCulator(5, "-", 3)
-console.log(cal);

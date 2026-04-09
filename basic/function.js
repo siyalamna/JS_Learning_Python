@@ -47,4 +47,19 @@ function calculateCartPrice(... num1){
     return num1
 }
 
-console.log(calculateCartPrice(200, 300, 400))
+// console.log(calculateCartPrice(200, 300, 400))
+
+function syaHello() {
+    console.log("Hello Babe")
+}
+
+syaHello();
+
+function addition(a = 2, b = 6){
+    console.log(`Addition of a and b is:, ${a + b}`)
+}
+
+addition();
+
+
+
