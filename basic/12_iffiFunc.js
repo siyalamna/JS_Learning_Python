@@ -11,5 +11,5 @@
 })();
 
 ( (name) => {
-    console.log(`Welcome ${name}`)
+    console.log(`Welcome  ${name}`)
 })("Amna");
